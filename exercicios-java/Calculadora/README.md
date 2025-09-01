@@ -1,7 +1,7 @@
 
 ---
 
-## 🧮 Exercício 1: Calculadora
+## 🧮 Exercício: Calculadora
 
 ### Descrição
 Programa que realiza operações básicas (soma, subtração, multiplicação e divisão).
