@@ -1,18 +1,19 @@
-## Getting Started
+📚 Exercício: Leitura de Páginas
+Descrição
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este programa em Java calcula quantos dias um usuário precisa para ler um livro, considerando que ele lê 3 páginas por dia.
 
-## Folder Structure
+O usuário informa a quantidade total de páginas do livro (paginas).
 
-The workspace contains two folders by default, where:
+O programa calcula o número de dias necessários (dias).
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Caso o total de páginas não seja múltiplo de 3, o programa adiciona um dia extra para ler as páginas restantes.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Exibe a quantidade de dias no formato: "X dias".
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+✅ Casos de Teste
+Entrada (paginas)	Saída esperada
+6	2 dias
+7	3 dias
+3	1 dias
+10	4 dias

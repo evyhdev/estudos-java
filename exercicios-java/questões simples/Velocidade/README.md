@@ -1,18 +1,23 @@
-## Getting Started
+🚓 Exercício: Verificação de Velocidade
+Descrição
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este programa em Java verifica se um motorista foi multado por excesso de velocidade.
 
-## Folder Structure
+O usuário informa a velocidade do veículo (velocidade).
 
-The workspace contains two folders by default, where:
+A velocidade máxima permitida é 60 km/h.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+O programa chama o método multa(int velocidade) para determinar:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Se a velocidade ultrapassa 60 → retorna "Foi Multado".
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Se a velocidade está dentro do limite → retorna "Nao foi Multado".
 
-## Dependency Management
+O resultado é exibido no console.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+✅ Casos de Teste
+Entrada (velocidade)	Saída esperada
+50	"Nao foi Multado"
+60	"Nao foi Multado"
+61	"Foi Multado"
+100	"Foi Multado"

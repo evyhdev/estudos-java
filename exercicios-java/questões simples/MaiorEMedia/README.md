@@ -1,18 +1,20 @@
-## Getting Started
+🔢 Exercício: Maior e Média
+Descrição
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este programa em Java solicita que o usuário digite 5 números inteiros.
+O programa calcula e exibe:
 
-## Folder Structure
+O maior número digitado.
 
-The workspace contains two folders by default, where:
+A média dos números informados.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+✅ Casos de Teste
+Entrada (5 números)	Saída esperada
+2, 5, 8, 1, 4	"O maior numero é: 8"
+"A media é: 4.0"
+10, 20, 30, 40, 50	"O maior numero é: 50"
+"A media é: 30.0"
+5, 5, 5, 5, 5	"O maior numero é: 5"
+"A media é: 5.0"
+1, 3, 2, 4, 0	"O maior numero é: 4"
+"A media é: 2.0"

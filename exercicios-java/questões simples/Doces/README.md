@@ -1,18 +1,12 @@
-## Getting Started
+🍬 Exercício: Doces
+Descrição
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este programa em Java solicita que o usuário digite a quantidade de dinheiro disponível.
+O programa calcula quantos doces o cliente pode comprar, considerando que cada real permite comprar 2 doces, e exibe o resultado no console.
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+✅ Casos de Teste
+Entrada (dinheiro)	Saída esperada
+5	"O cliente obteve:10 doces"
+10	"O cliente obteve:20 doces"
+0	"O cliente obteve:0 doces"
+7	"O cliente obteve:14 doces"

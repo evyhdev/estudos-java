@@ -1,18 +1,17 @@
-## Getting Started
+💰 Exercício: Total Mensal
+Descrição
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este programa em Java calcula o total de um valor mensal multiplicado pelo número de meses informado pelo usuário.
 
-## Folder Structure
+O valor mensal é fixo em 50.
 
-The workspace contains two folders by default, where:
+O usuário informa a quantidade de meses (mes).
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+O programa calcula total = valor * mes e exibe o resultado.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+✅ Casos de Teste
+Entrada (mes)	Saída esperada
+1	50
+5	250
+0	0
+12	600

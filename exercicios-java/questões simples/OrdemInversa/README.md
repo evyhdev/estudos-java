@@ -1,18 +1,26 @@
-## Getting Started
+🔄 Exercício: Ordem Inversa
+Descrição
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este programa em Java solicita que o usuário digite 6 números inteiros e os armazena em um vetor (array).
+O programa então imprime os números na ordem inversa àquela em que foram digitados.
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+✅ Casos de Teste
+Entrada (6 números)	Saída esperada
+1, 2, 3, 4, 5, 6	
+5
+4
+3
+2
+1
+10, 20, 30, 40, 50, 60	60
+50
+40
+30
+20
+10
+5, 3, 8, 1, 9, 2	2
+9
+1
+8
+3
+5

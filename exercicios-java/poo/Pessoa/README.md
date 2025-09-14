@@ -1,18 +1,22 @@
-## Getting Started
+🧑‍🤝‍🧑 Exercício: Pessoa
+Descrição
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este programa em Java cria uma classe Pessoa com os atributos nome e idade.
+A classe possui métodos para:
 
-## Folder Structure
+apresentar() → exibe no console uma mensagem com o nome e a idade da pessoa.
 
-The workspace contains two folders by default, where:
+fazerAniversario() → incrementa a idade em 1 e exibe uma mensagem de feliz aniversário.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+No programa principal (Main), são criados objetos do tipo Pessoa e chamados seus métodos para demonstrar apresentações e aniversários.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+✅ Casos de Teste
+Ação no programa	Saída esperada
+Criar pessoa: p1.nome = "João", p1.idade = 20	
+Criar pessoa: p2.nome = "Maria", p2.idade = 25	
+p1.apresentar()	"Olá, meu nome é João e tenho 20 anos."
+p1.fazerAniversario()	"Feliz Aniversário!20"
+p2.apresentar()	"Olá, meu nome é Maria e tenho 25 anos."
+p2.fazerAniversario()	"Feliz Aniversário!25"
+p1.apresentar()	"Olá, meu nome é João e tenho 21 anos."
+p2.apresentar()	"Olá, meu nome é Maria e tenho 26 anos."
